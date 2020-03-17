@@ -1,0 +1,10 @@
+body{
+  background-color: black;
+}
+#encabezado{
+  background-color: #5b7989;
+}
+#encabezado h1{
+  color: white;
+  text-align: center;
+}
