@@ -1,5 +1,12 @@
 body{
-  background-color: black;
+  background-color: #02010a;
+  font-family: Dancing Script;
+}
+.contenido{
+  width: 100%;
+  text-align: center;
+  display: flex;
+	flex-direction: column;
 }
 .encabezado{
   background-color: #5b7989;
@@ -12,6 +19,7 @@ body{
 }
 .encabezado nav a{
   color: blue;
+  float: right;
 }
 .encabezado #inicio:link{
   text-decoration: none;
@@ -21,4 +29,71 @@ body{
 }
 .encabezado #retratos:link{
   text-decoration: none;
+}
+.principal{
+  width: 100%;
+  background-color: #82c3a6;
+}
+.imagen_principal{
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.secundarias{
+  width: 100%;
+  background-color: #d5c75f;
+  border: 1px solid white;
+  display: flex;
+	flex-direction: column;
+}
+.secundarias > div{
+  text-align: center;
+}
+.imagen_paisaje{
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 2%;
+  margin-bottom: 1%;
+}
+.imagen_retrato{
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 1%;
+  margin-bottom: 2%;
+}
+@media (min-width:900px){
+  .contenido{
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .secundarias{
+    display: flex;
+    flex-direction: row;
+    }
+
+  .secundarias > div{
+    width: 50%;
+  }
+
+  .imagen_paisaje{
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    }
+
+  .imagen_retrato{
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    }
 }

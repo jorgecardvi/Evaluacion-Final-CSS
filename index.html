@@ -5,19 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Jorge Cardenas">
     <meta name="description" content="Evaluacion Final CSS">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="css/estilos.css">
     <title>Pagina Principal - Evaluacion Final CSS</title>
   </head>
   <body>
-    <header class="encabezado">
-    	<h1>
-    		Comenzando con la fotografia!
-    	</h1>
-      <nav>
-        <a href="index.html" id="inicio">Inicio</a>
-        <a href="html/paisajes.html">Paisajes</a>
-        <a href="html/retratos.html">Retratos</a>
-      </nav>
-    </header>
+    <div class="contenido">
+      <header class="encabezado">
+      	<h1>
+      		Comenzando con la fotografia!
+      	</h1>
+        <nav>
+          <a href="index.html" id="inicio">Inicio</a>
+          <a href="html/paisajes.html">Paisajes</a>
+          <a href="html/retratos.html">Retratos</a>
+        </nav>
+      </header>
+
+      <section id="imagenes">
+        <div class="contenedor">
+          <div class="principal">
+            <img src="images/principal_starWars.jpg" alt="imagenPrincipal" class="imagen_principal">
+          </div>
+          <div class="secundarias">
+            <div class="secundaria_paisajes">
+              <img src="images/landscape3.jpg" alt="imagen paisaje" class="imagen_paisaje">
+            </div>
+            <div class="secundaria_retratos">
+              <img src="images/portraits.png" alt="imagen retrato" class="imagen_retrato">
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </div>
   </body>
 </html>
