@@ -9,7 +9,6 @@ body{
   display: -webkit-flex;
   -webkit-flex-flow: row wrap;
 	flex-flow: row wrap;
-
 }
 .encabezado{
   width: 100%;
@@ -48,9 +47,7 @@ body{
 .secundarias{
   width: 100%;
   background-color: #d5c75f;
-  border: 1px solid white;
-}
-.secundarias > div{
+  border: 1px solid black;
   text-align: center;
 }
 .imagen_paisaje{
@@ -69,17 +66,13 @@ body{
 }
 .pie{
   background-color: #C6d5c5;
-  display: flex;
-  flex-flow: column wrap;
-  display: -webkit-flex;
-  -webkit-flex-flow: column wrap;
   width: 100%;
-
+  border-radius: 0px 0px 10px 10px;
 }
 .pie div{
-  width: 100%;
   margin-left: 10%;
 }
+
 @media (min-width:900px){
   .contenido{
     width: 900px;
@@ -106,19 +99,14 @@ body{
     margin-top: 2%;
     margin-bottom: 2%;
   }
-  .secundarias{
+  .secundarias, .pie{
     display: flex;
     flex-direction: row;
   }
-  .pie{
-    display: flex;
-    flex-direction: row;
-  }
-  .pie > div{
+  .pie div{
     width: 25%;
-    margin: auto;
-    /*
-    height: 20vw;
-    */
+    box-sizing: border-box;
+  	padding: 2px;
+    margin: 1%;
   }
 }
