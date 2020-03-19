@@ -177,4 +177,18 @@ paisajes y retratos html
   	padding: 2px;
     margin: 1%;
   }
+  /*
+  paisajes y retratos html
+  */
+  #imagenes_galeria{
+    display: -webkit-flex;
+  	display: flex;
+  	-webkit-flex-flow: row wrap;
+  	flex-flow: row wrap;
+  }
+  div[class*=paisajes_], div[class*=retratos_]{
+    width: 33.33%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+  }
 }
