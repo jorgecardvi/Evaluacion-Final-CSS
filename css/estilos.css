@@ -90,15 +90,11 @@ body{
 .pie{
   background-color: #C6d5c5;
   width: 100%;
-<<<<<<< HEAD
   display: flex;
   flex-direction: column;
   display: -webkit-flex;
   -webkit-flex-direction: column;
-
-=======
   border-radius: 0px 0px 10px 10px;
->>>>>>> revision_secciones
 }
 .pie div{
   margin-left: 10%;
